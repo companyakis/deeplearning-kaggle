@@ -1,2 +1,2 @@
-# deeplearning101
-Deep Learning 101
+# Kaggle Deep Learning Course Exercises
+
