@@ -1,0 +1,19 @@
+m1 = tf.constant([[1, 2, 3], [4, 5, 6]])
+
+print(m1)
+
+c = tf.cast(m1, dtype = tf.dtypes.float16)
+
+print(c)
+
+"""
+tf.Tensor(
+[[1 2 3]
+ [4 5 6]], shape=(2, 3), dtype=int32)
+
+
+tf.Tensor(
+[[1. 2. 3.]
+ [4. 5. 6.]], shape=(2, 3), dtype=float16)
+
+"""
