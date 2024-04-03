@@ -4,9 +4,9 @@ print(length_flowers_dataset) # 3670
 
 train_size = int(length_flowers_dataset * 0.85)
 
-train__flowers_dataset = flowers_dataset.take(train_size)
+train_flowers_dataset = flowers_dataset.take(train_size)
 
-print(len(train__flowers_dataset))
+print(len(train_flowers_dataset))
 
 test_flowers_dataset = flowers_dataset.skip(train_size)
 
